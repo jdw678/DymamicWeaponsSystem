@@ -41,7 +41,7 @@ namespace DynamicWeaponsSystem
         {
             fireRate *= stats.fireRate;
             damage *= stats.damage;
-            this.maxAmmo *= maxAmmo;
+            maxAmmo *= stats.maxAmmo;
             currentAmmo *= stats.currentAmmo;
             bulletVelocity *= stats.bulletVelocity;
 

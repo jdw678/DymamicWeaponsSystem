@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-F:/Projects/Gun
+F:/Projects/DymamicWeaponsSystem
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39011
-Successfully changed project path to: F:/Projects/Gun
-F:/Projects/Gun
+36144
+Successfully changed project path to: F:/Projects/DymamicWeaponsSystem
+F:/Projects/DymamicWeaponsSystem
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ F:/Projects/Gun
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5236] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 155393039 [EditorId] 155393039 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3FVCUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13452] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 4102464663 [EditorId] 4102464663 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3FVCUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5236] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 155393039 [EditorId] 155393039 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3FVCUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13452] Host "[IP] 192.168.1.237 [Port] 0 [Flags] 2 [Guid] 4102464663 [EditorId] 4102464663 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3FVCUO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/Projects/Gun/Assets
+[Subsystems] Discovering subsystems at path F:/Projects/DymamicWeaponsSystem/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,43 +70,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008476 seconds.
-- Loaded All Assemblies, in  0.343 seconds
+Registered in 0.009434 seconds.
+- Loaded All Assemblies, in  0.368 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.276 seconds
-Domain Reload Profiling: 616ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 647ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (131ms)
-		LoadAssemblies (100ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (116ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (276ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (282ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (216ms)
+		SetupLoadedEditorAssemblies (221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadAttributes (152ms)
 			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,411 +115,142 @@ Domain Reload Profiling: 616ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.582 seconds
-Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.644 seconds
-Domain Reload Profiling: 1223ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.668 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (277ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (318ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (644ms)
+	FinalizeReload (669ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
+		SetupLoadedEditorAssemblies (531ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (367ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (388ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3266 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (57.1 KB). Loaded Objects now: 3730.
-Memory consumption went from 126.2 MB to 126.2 MB.
-Total: 2.725000 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.242700 ms  DeleteObjects: 0.094800 ms)
+Unloading 31 unused Assets / (56.9 KB). Loaded Objects now: 3730.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 3.013100 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.087300 ms MarkObjects: 2.540300 ms  DeleteObjects: 0.090200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/IAttatchable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/ShrinkSlot.cs: f26a3dadfe5131bb57284a365f8d068a -> 9c4380e2108bb4fd994c3d31c6da386c
-  custom:scripting/monoscript/fileName/SerializableDictionary.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:scripting/monoscript/fileName/SerializablePair.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleMagazine.cs: f92133da401f088d70dc72a4bdbdba73 -> ca19eea9b18458005ef0fd3cab4be9f1
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/IWeapon.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ISlotter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/IShooter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBarrel.cs: cb82f3e7d3a01eff7cd7e0111ed723c0 -> b29f5ddaf37835991ed90386ed0c5f77
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Weapon.cs: 97de6bf38f7e259d71f8d72a111825d2 -> 839567fb6889fee4a817e92d8c113abb
-  custom:scripting/monoscript/fileName/StretchSlot.cs: 651aa2fa3f00e4aa3d42e2b4ace9557d -> 4a3bf4337a395c81628959c58f0eb3bf
-  custom:scripting/monoscript/fileName/IStattable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBulletShooter.cs: e4b11ef055d14200578d53e6b76417e2 -> aa9defaaa00c5d41a19fb83f285c7ff7
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ExampleBullet.cs: d026cd78a2eb51bf13f9a86fc5611fef -> 7af5538633b75b7bc5f663df85a79a77
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ExampleStats.cs: 36a255aa644079c87a37a874834c3477 -> c97bd218ac46eadb17661bc837d1818c
-  custom:scripting/monoscript/fileName/IPrefabDisplayable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WeaponPrefabHandler.cs: c9f352e01908a023dc7f47909544f56b -> 09a1939fad647df08f3789da6db4ad1c
-  custom:scripting/monoscript/fileName/IPrefabDisplayer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
 ========================================================================
 Received Import Request.
-  Time since last request: 1316475.512490 seconds.
-  path: Assets/DynamicWeaponsSystem/Scenes/ExampleScene.unity
-  artifactKey: Guid(54a41e65e045baf41bc8511d141e148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scenes/ExampleScene.unity using Guid(54a41e65e045baf41bc8511d141e148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0262b0e0beac345e3b17a92630f5094') in 0.002599 seconds
+  Time since last request: 1323227.235709 seconds.
+  path: Assets/DynamicWeaponsSystem/Scripts/Classes/Weapon.cs
+  artifactKey: Guid(dafae3886d6c38f4580e0f06a4d1c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/Weapon.cs using Guid(dafae3886d6c38f4580e0f06a4d1c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7955b16f1aec16efce226b54c7660') in 0.003836 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.555950 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/SerializableDictionary.cs
-  artifactKey: Guid(9ca484258eda69b429c6ec5a23c2832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/SerializableDictionary.cs using Guid(9ca484258eda69b429c6ec5a23c2832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfccc2645f2e56f8df25097590cdb40') in 0.000425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.894580 seconds.
-  path: Assets/DynamicWeaponsSystem/Scenes/Test.unity
-  artifactKey: Guid(a3bd50bdc6c4f394fa351f758127de02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scenes/Test.unity using Guid(a3bd50bdc6c4f394fa351f758127de02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf19cd24ecc22fd5600c9593cee5733') in 0.000531 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 112.172034 seconds.
-  path: Assets/DynamicWeaponsSystem/Prefabs/Bullets/BasicBullet.prefab
-  artifactKey: Guid(39660f9a7fe315e438f34d120bcde4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Prefabs/Bullets/BasicBullet.prefab using Guid(39660f9a7fe315e438f34d120bcde4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707e17f9b6d9451188f8b10a2e2b7d90') in 0.098054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.438 seconds
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.113 seconds
-Domain Reload Profiling: 1548ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  1.021 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (282ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (279ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1114ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1022ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (547ms)
+		SetupLoadedEditorAssemblies (487ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (31.1 KB). Loaded Objects now: 3743.
-Memory consumption went from 131.5 MB to 131.4 MB.
-Total: 2.924200 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.478900 ms  DeleteObjects: 0.064200 ms)
+Unloading 22 unused Assets / (31.2 KB). Loaded Objects now: 3734.
+Memory consumption went from 126.9 MB to 126.9 MB.
+Total: 2.653200 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.207200 ms  DeleteObjects: 0.053700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/IAttatchable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/ShrinkSlot.cs: f26a3dadfe5131bb57284a365f8d068a -> 9c4380e2108bb4fd994c3d31c6da386c
-  custom:scripting/monoscript/fileName/SerializableDictionary.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:scripting/monoscript/fileName/SerializablePair.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleMagazine.cs: f92133da401f088d70dc72a4bdbdba73 -> ca19eea9b18458005ef0fd3cab4be9f1
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/IWeapon.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ISlotter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/IShooter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBarrel.cs: cb82f3e7d3a01eff7cd7e0111ed723c0 -> b29f5ddaf37835991ed90386ed0c5f77
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Weapon.cs: 97de6bf38f7e259d71f8d72a111825d2 -> 839567fb6889fee4a817e92d8c113abb
-  custom:scripting/monoscript/fileName/StretchSlot.cs: 651aa2fa3f00e4aa3d42e2b4ace9557d -> 4a3bf4337a395c81628959c58f0eb3bf
-  custom:scripting/monoscript/fileName/IStattable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBulletShooter.cs: e4b11ef055d14200578d53e6b76417e2 -> aa9defaaa00c5d41a19fb83f285c7ff7
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ExampleBullet.cs: d026cd78a2eb51bf13f9a86fc5611fef -> 7af5538633b75b7bc5f663df85a79a77
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ExampleStats.cs: 36a255aa644079c87a37a874834c3477 -> c97bd218ac46eadb17661bc837d1818c
-  custom:scripting/monoscript/fileName/IPrefabDisplayable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WeaponPrefabHandler.cs: c9f352e01908a023dc7f47909544f56b -> 09a1939fad647df08f3789da6db4ad1c
-  custom:scripting/monoscript/fileName/IPrefabDisplayer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.520 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.183 seconds
-Domain Reload Profiling: 1700ms
-	BeginReloadAssembly (163ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (329ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1183ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3747.
-Memory consumption went from 133.7 MB to 133.6 MB.
-Total: 2.794500 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.221400 ms  DeleteObjects: 0.046200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/IAttatchable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/ShrinkSlot.cs: f26a3dadfe5131bb57284a365f8d068a -> 9c4380e2108bb4fd994c3d31c6da386c
-  custom:scripting/monoscript/fileName/SerializableDictionary.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:scripting/monoscript/fileName/SerializablePair.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleMagazine.cs: f92133da401f088d70dc72a4bdbdba73 -> ca19eea9b18458005ef0fd3cab4be9f1
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/IWeapon.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ISlotter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/IShooter.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBarrel.cs: cb82f3e7d3a01eff7cd7e0111ed723c0 -> b29f5ddaf37835991ed90386ed0c5f77
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/Weapon.cs: 97de6bf38f7e259d71f8d72a111825d2 -> 839567fb6889fee4a817e92d8c113abb
-  custom:scripting/monoscript/fileName/StretchSlot.cs: 651aa2fa3f00e4aa3d42e2b4ace9557d -> 4a3bf4337a395c81628959c58f0eb3bf
-  custom:scripting/monoscript/fileName/IStattable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/ExampleBulletShooter.cs: e4b11ef055d14200578d53e6b76417e2 -> aa9defaaa00c5d41a19fb83f285c7ff7
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/ExampleBullet.cs: d026cd78a2eb51bf13f9a86fc5611fef -> 7af5538633b75b7bc5f663df85a79a77
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ExampleStats.cs: 36a255aa644079c87a37a874834c3477 -> c97bd218ac46eadb17661bc837d1818c
-  custom:scripting/monoscript/fileName/IPrefabDisplayable.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/WeaponPrefabHandler.cs: c9f352e01908a023dc7f47909544f56b -> 09a1939fad647df08f3789da6db4ad1c
-  custom:scripting/monoscript/fileName/IPrefabDisplayer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
 ========================================================================
 Received Import Request.
-  Time since last request: 423.791370 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/Attatchables/ExampleBarrel.cs
-  artifactKey: Guid(123bf8a98b228af4a86d7f0828098467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/Attatchables/ExampleBarrel.cs using Guid(123bf8a98b228af4a86d7f0828098467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebbb3df4266c7c29fe73440235f6333') in 0.003069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.005122 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/StretchSlot.cs
-  artifactKey: Guid(b1351f6f70ed91b48b2f7b9fc7e0caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/StretchSlot.cs using Guid(b1351f6f70ed91b48b2f7b9fc7e0caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c4cc6f578df285437458fa01280ba9') in 0.000590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003774 seconds.
+  Time since last request: 58.746079 seconds.
   path: Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleStats.cs
   artifactKey: Guid(d644a24cac069e9488039b1c6c328ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleStats.cs using Guid(d644a24cac069e9488039b1c6c328ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab1cc35fc74dbca0aa833d0767ccb9c') in 0.000429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003026 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IPrefabDisplayer.cs
-  artifactKey: Guid(872866790d3038b45b22a8a3356bfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IPrefabDisplayer.cs using Guid(872866790d3038b45b22a8a3356bfa44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f58c49230dd17380232f2fe372fc509') in 0.000565 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003290 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/ISlotter.cs
-  artifactKey: Guid(b1abe9fd5c232ce4589e1e6215adcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/ISlotter.cs using Guid(b1abe9fd5c232ce4589e1e6215adcc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4043ded10259f368e42b93254b24c0bf') in 0.000537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.024925 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IPrefabDisplayable.cs
-  artifactKey: Guid(06607124071d00044aacd717eab2f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IPrefabDisplayable.cs using Guid(06607124071d00044aacd717eab2f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be278202d9463da2686f429b22415b4b') in 0.000505 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.010703 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleBulletShooter.cs
-  artifactKey: Guid(14945b0e3dcf32a469b77c60bb65e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleBulletShooter.cs using Guid(14945b0e3dcf32a469b77c60bb65e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa864f49bfe9ec1f8f4c7f5181068e3a') in 0.000584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.008875 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/WeaponPrefabHandler.cs
-  artifactKey: Guid(4b4e32ac0e856914fa551a5fae138b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/WeaponPrefabHandler.cs using Guid(4b4e32ac0e856914fa551a5fae138b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4192476a4a8dfd1607d3ff9e6114db4') in 0.000466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.009291 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IWeapon.cs
-  artifactKey: Guid(301abc6636731e7418f9fbf24ed146d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IWeapon.cs using Guid(301abc6636731e7418f9fbf24ed146d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf3b80fecbde7570eb1679564350e7') in 0.000522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.009311 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/Weapon.cs
-  artifactKey: Guid(dafae3886d6c38f4580e0f06a4d1c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/Weapon.cs using Guid(dafae3886d6c38f4580e0f06a4d1c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58ba1431279eb20c825e29fdb866f90') in 0.000553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003074 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IShooter.cs
-  artifactKey: Guid(228a6f4b952eb0e4d8e07d6db88a993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IShooter.cs using Guid(228a6f4b952eb0e4d8e07d6db88a993e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d5a80f325fa0f8913527f547b2be00') in 0.000545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.005201 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IAttatchable.cs
-  artifactKey: Guid(d8bd760e245929343909d74ed254084c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IAttatchable.cs using Guid(d8bd760e245929343909d74ed254084c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e150df22573b1534b2353405ecb4abfb') in 0.000470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003736 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/Attatchables/ExampleMagazine.cs
-  artifactKey: Guid(d9270d426fc723641a78abcc2853800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/Attatchables/ExampleMagazine.cs using Guid(d9270d426fc723641a78abcc2853800e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7575351eba4e113b4ea7ac3bc67151b1') in 0.000473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003100 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Interfaces/IStattable.cs
-  artifactKey: Guid(7bee64f2db4f1f3478f13c08ca65fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Interfaces/IStattable.cs using Guid(7bee64f2db4f1f3478f13c08ca65fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d88eec10c7c1ba3dc790fa98ec318b') in 0.000397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004914 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/ShrinkSlot.cs
-  artifactKey: Guid(f168e4494828de9438525d5de44f2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/ShrinkSlot.cs using Guid(f168e4494828de9438525d5de44f2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287e9ecba730c0fd67082708a9860997') in 0.000438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.009371 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Structs/SerializablePair.cs
-  artifactKey: Guid(b4cd57736b44cfa46989c79c28ad36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Structs/SerializablePair.cs using Guid(b4cd57736b44cfa46989c79c28ad36fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f94f68504d01c0c103c6824843c864') in 0.000572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.003087 seconds.
-  path: Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleBullet.cs
-  artifactKey: Guid(39cce77f94b95c5488e5d617ae9aa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleBullet.cs using Guid(39cce77f94b95c5488e5d617ae9aa872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25e4d99dc6b77cefbe52981d474e42c') in 0.000488 seconds
+Start importing Assets/DynamicWeaponsSystem/Scripts/Classes/ExampleStats.cs using Guid(d644a24cac069e9488039b1c6c328ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7cfeb68693389464b8a1a4703f7b52') in 0.002286 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
